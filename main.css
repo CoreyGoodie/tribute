@@ -1,3 +1,12 @@
+
+@media (max-width: 460px) {
+    #main {
+      margin: 0;
+    }
+    #img-caption {
+        font-size: 1.4rem;
+      }
+  }
 html {
     /* Setting a base font size of 10px give us easier rem calculations
        Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px and so forth
@@ -14,7 +23,6 @@ html {
     margin: 0;
     text-align: center;
     background: #eee;
-
     
   }
   h3{
@@ -39,6 +47,12 @@ html {
   }
   #img-div{
       background-color: white;
+  }
+  img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
   }
 
   #img-caption {
